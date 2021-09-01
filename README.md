@@ -1,6 +1,6 @@
 # IONEnergy
 
-##Relation between Grid status and SOC:
+## Relation between Grid status and SOC:
 ● Grid status is a categorical column with classes 1 and 0.
 ● SOC is a numeric data with max value as 1 and min value as -0.15.
 
@@ -9,7 +9,7 @@ status. Box plot gives the distribution of data in quartiles. From the above two
 that the majority of data points in Grid status = 0 lie between SOC values of 0.62 and 0.43. Also,
 the majority of data points in Grid status = 1 lie between SOC values of 1 and 0.62.
 
-##Relation between Equivalent cycles and SOH:
+## Relation between Equivalent cycles and SOH:
 ● Equivalent cycles is a numeric column with min value of 0 and max value of 107.84.
 ● SOH is a numeric column with min value of 0.919 and max value of 1.
 
@@ -18,7 +18,7 @@ Explanation: From the above figure we can say that there is a strong negative co
 between SOH and Equivalent cycle. As the value of SOH increases there is a decrease in the
 value of Equivalent cycle. For SOH =1 the value of Equivalent cycle = 0.
 
-##Relation between Temperature and SOC:
+## Relation between Temperature and SOC:
 ● SOC is a numeric data column with max value as 1 and min value as -0.15.
 ● Temperature is a numeric data column with max value136.118 of and min value of
 20.26.
